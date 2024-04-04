@@ -4,6 +4,7 @@ import { Text, View, TouchableOpacity } from "react-native";
 import { useRouter } from "expo-router";
 import { FontAwesome6 } from "@expo/vector-icons";
 import { COLORS, SIZES } from "../constants/theme";
+import { Button, Layout } from "@ui-kitten/components";
 const MainScreen = () => {
   const router = useRouter();
 
@@ -14,34 +15,11 @@ const MainScreen = () => {
         flex: 1,
       }}
     >
-      <View
-        style={{
-          paddingHorizontal: SIZES.large,
-          marginTop: SIZES.medium,
-        }}
+      <Layout
+        style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
       >
-        <View
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-            paddingBottom: SIZES.small,
-          }}
-        >
-          <Text
-            style={{
-              fontSize: SIZES.xLarge,
-              fontWeight: "600",
-              color: COLORS.white,
-            }}
-          >
-            Thiết bị
-          </Text>
-          <TouchableOpacity onPress={() => router.navigate("/device/add")}>
-            <FontAwesome6 name="add" size={30} color={COLORS.hightlight} />
-          </TouchableOpacity>
-        </View>
-      </View>
+        <Button>HOME</Button>
+      </Layout>
     </SafeAreaView>
   );
 };

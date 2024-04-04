@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "819199364113",
+    "firebase_url": "https://device-control-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "device-control-app",
+    "storage_bucket": "device-control-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819199364113:android:3735521cc5fabebeb875b0",
+        "android_client_info": {
+          "package_name": "com.alexphn.devicecontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSjIabpJrissQViup57Spdq_8R4s0jlb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
